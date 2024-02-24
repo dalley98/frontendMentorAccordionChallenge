@@ -1,0 +1,176 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  /*
+    2. Remove default margin and padding
+  */
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+  }
+  /*
+    Typographic tweaks!
+    3. Add accessible line-height
+    4. Improve text rendering
+  */
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  /*
+    5. Improve media defaults
+  */
+  img, picture, video, canvas, svg {
+    display: block;
+  }
+  /*
+    6. Remove built-in form typography styles
+  */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  /*
+    7. Avoid text overflows
+  */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  
+  body{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(275, 100%, 97%) ;
+  }
+  
+  .svg-wrapper{
+    max-width: 1440px;
+  }
+  
+  .mobile-svg svg{
+    display: none;
+  }
+  
+  
+  .header-wrapper{
+    display: flex;
+  }
+  
+  .header-wrapper .star-svg{
+    margin-inline-end: 21px;
+    align-self: center;
+  }
+  
+  .h1 h1{
+    font-size: 42px;
+  }
+  
+  
+  
+  .accordion-body{
+    background-color: white;
+    padding: 18px;
+    border-radius: 5px;
+    margin: -150px auto;
+    max-width: 600px;
+  }
+  
+  .accordion .container{
+    position: relative;
+    margin: 21px 10px;
+  
+  }
+  
+  .accordion .container:focus, .attribution a:focus { 
+    outline: 1px solid hsl(292, 16%, 49%);
+    border-radius: 3px ;
+  }
+  
+  .container .label{
+    position: relative;
+    padding: 10px 0;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  
+  
+  .accordion .label{
+    display: flex;
+  }
+  
+  .accordion .label svg{
+    position: absolute;
+    left: 94.5%;
+  }
+  
+  .accordion .label svg.minus{
+    visibility: hidden;
+  }
+  
+  .accordion .content{
+    position: relative;
+    background: white;
+    height: 0;
+    font-size: 12px;
+    text-align: justify;
+    max-width: 500px;
+    overflow: hidden;
+    transition: 0.5s;
+  
+  }
+  
+  .accordion hr{
+    border: 1px solid hsl(275, 100%, 97%);
+    width: 100%;
+    
+  }
+  
+  .accordion .container.active .content{
+    height: 55px
+  }
+  
+  .accordion .container.active .label svg.minus{
+    visibility: initial;
+  }
+  
+  
+  
+  .attribution {
+    position: relative;
+    top: 150px;
+    margin-block-start: 21px;
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  
+  /*Mobile design*/
+  
+  @media screen and (max-width: 375px){
+    .svg-wrapper svg{
+      display: none;
+    }
+  
+    .mobile-svg svg{
+      display: unset;
+    }
+  
+    .accordion-body{
+      max-width: 350px;
+    }
+  
+    .container .label{
+      max-width: 90%;
+    }
+  
+    .accordion .label svg{
+      left: 100%;
+    }
+    
+  }
