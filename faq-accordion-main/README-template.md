@@ -27,7 +27,9 @@ Users should be able to:
 
 ### Screenshot
 
-![image](https://github.com/dalley98/frontendMentorAccordion/assets/145871077/b23dc62a-99a9-4301-acea-3d71c9472a22)
+![image](https://github.com/dalley98/frontendMentorAccordionChallenge/assets/145871077/47066ca3-5d57-497b-bdc8-d2a1eba66d15)
+
+
 
 
 ### Links
