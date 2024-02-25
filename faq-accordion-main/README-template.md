@@ -27,13 +27,15 @@ Users should be able to:
 
 ### Screenshot
 
-![image](https://github.com/dalley98/frontendMentorAccordion/assets/145871077/b23dc62a-99a9-4301-acea-3d71c9472a22)
+![image](https://github.com/dalley98/frontendMentorAccordionChallenge/assets/145871077/47066ca3-5d57-497b-bdc8-d2a1eba66d15)
+
+
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/responsive-accordion-page-using-html-css-and-js-jSHXhDQfNa
+- Live Site URL: https://frontend-mentor-accordion-challenge.vercel.app/
 
 ## My process
 
